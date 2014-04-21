@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "WCFService\WCFService.csproj", "{FE64533F-4B47-4431-8871-817373E06FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb1", "TestWeb1\TestWeb1.csproj", "{47AAD5D7-ED6A-47A3-B9DA-2998D759A03E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE64533F-4B47-4431-8871-817373E06FBA} = {FE64533F-4B47-4431-8871-817373E06FBA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE64533F-4B47-4431-8871-817373E06FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE64533F-4B47-4431-8871-817373E06FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE64533F-4B47-4431-8871-817373E06FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE64533F-4B47-4431-8871-817373E06FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AAD5D7-ED6A-47A3-B9DA-2998D759A03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AAD5D7-ED6A-47A3-B9DA-2998D759A03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AAD5D7-ED6A-47A3-B9DA-2998D759A03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AAD5D7-ED6A-47A3-B9DA-2998D759A03E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
